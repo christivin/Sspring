@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://E:/SpringMVC学习/day01/资料/01-相关jar包/spring Ioc基本包/commons-logging-1.2.jar!/" />
+      <root url="jar://E:/SpringMVC学习/day01/资料/01-相关jar包/spring Ioc基本包/log4j-1.2.16.jar!/" />
+      <root url="jar://E:/SpringMVC学习/day01/资料/01-相关jar包/spring Ioc基本包/spring-beans-4.2.4.RELEASE.jar!/" />
+      <root url="jar://E:/SpringMVC学习/day01/资料/01-相关jar包/spring Ioc基本包/spring-context-4.2.4.RELEASE.jar!/" />
+      <root url="jar://E:/SpringMVC学习/day01/资料/01-相关jar包/spring Ioc基本包/spring-core-4.2.4.RELEASE.jar!/" />
+      <root url="jar://E:/SpringMVC学习/day01/资料/01-相关jar包/spring Ioc基本包/spring-expression-4.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
