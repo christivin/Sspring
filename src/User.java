@@ -7,4 +7,7 @@ public class User {
         System.out.println("add...........");
     }
 
+    static public void main (String args[]){
+
+    }
 }
