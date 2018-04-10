@@ -8,5 +8,8 @@
 
     <!--静态工厂创建对象-->
     <bean id="bean2" class="cn.bean.Bean2Factory" factory-method="getBean2"></bean>
+
+    <!--使用有参数构造注入属性-->
+    <bean id="PropertyDemo1" class="cn.property"></bean>
 </beans>
 
