@@ -10,6 +10,23 @@
     <bean id="bean2" class="cn.bean.Bean2Factory" factory-method="getBean2"></bean>
 
     <!--使用有参数构造注入属性-->
-    <bean id="PropertyDemo1" class="cn.property"></bean>
+    <bean id="PropertyDemo1" class="cn.property.PropertyDemo1">
+        <constructor-arg name="username" value="djc"></constructor-arg>
+    </bean>
+
+    <!--使用set方法注入属性-->
+    <bean id="book" class="cn.property.book">
+        <property name="bookname" value="浮士德"></property>
+    </bean>
+
+    <!--注入对象类型属性-->
+    <!--1配置service和dao对象-->
+    <bean id="userDao" class="cn.ioc.UserDao"></bean>
+
+    <bean id="userService" class="cn.ioc.UserService">
+        <!--注入dao对象，不要写value属性，因为刚才是字符串，现在是对象
+        现在写ref属性，dao配置bean标签中的id值-->
+        <property name="userDao" ref="userDao"></property>
+    </bean>
 </beans>
 
