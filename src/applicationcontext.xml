@@ -27,6 +27,12 @@
         <!--注入dao对象，不要写value属性，因为刚才是字符串，现在是对象
         现在写ref属性，dao配置bean标签中的id值-->
         <property name="userDao" ref="userDao"></property>
+        <property name="arrs">
+            <list>
+                <value>sa</value>
+            </list>
+        </property>
+
     </bean>
 </beans>
 

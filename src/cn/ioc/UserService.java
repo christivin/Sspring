@@ -16,6 +16,16 @@ public class UserService {
         this.userDao = userDao;
     }
 
+    String[] arrs;
+
+    public String[] getArrs() {
+        return arrs;
+    }
+
+    public void setArrs(String[] arrs) {
+        this.arrs = arrs;
+    }
+
     public void add(){
         System.out.println("Service.......");
         //传统service调用dao方法，现在需要将创建dao中的对象交给spring
