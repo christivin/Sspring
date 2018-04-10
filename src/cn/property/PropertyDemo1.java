@@ -10,7 +10,9 @@ public class PropertyDemo1 {
     public PropertyDemo1(String username){
         this.username = username;
     }
+    public PropertyDemo1(){
 
+    }
     public void methodd(){
         System.out.println("demo1........"+username);
     }
